@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section id="formulario">
+        <form action="" method="post" name="frmregistro" >
+            <h1>FORMULARIO DE REGISTRO</h1>
+            <label for="">Complete el formulario con este Registros</label>
+            <hr>
+            <label for="">
+                NOMBRES Y APELLIDOS
+                <br>
+                <input type="text" name="txtnombres" id="caja" placeholder="INGRESE DATOS COMPLETOS" required>
+            </label>
+            <br>
+
+            <label for="">
+                DNI
+                <br>
+                <input type="number" name="txtdni" id="caja" placeholder="8 caracteres" disabled>    
+            </label>
+            <br>
+
+            <label for="">
+                TELEFONO
+                <br>
+                <input type="tel" name="txttelefono" id="caja">
+            </label>
+            <br>
+
+            <label for="">ESTUDIOS REALIZADOS</label>
+            <br>
+            <label for="">
+                <input type="checkbox" name="chkprimaria" checked="checked">Primaria
+            </label>
+            <br>
+            <label for="">
+                <input type="checkbox" name="chksecundaria">Secundaria
+            </label>
+            <br>
+            <label for="">
+                <input type="checkbox" name="chktecnico">Técnico
+            </label>
+            <br>
+            <label for="">
+                <input type="checkbox" name="chkuniversitario">Universitario
+            </label>
+            <br>
+
+            <label for="">ESTADO CIVIL</label>
+            <br>
+            <label for="">
+                <input type="radio" name="btnestado" checked="checked" value="s">SOLTERO
+                <br>
+                <input type="radio" name="btnestado" value="c">CASADO
+                <br>
+                <input type="radio" name="btnestado" value="v">VIUDO
+                <br>
+                <input type="radio" name="btnestado" value="d">DIVORCIADO
+            </label>
+            <br>
+
+            <select name="" id="">
+                <option value="">---------</option>
+                <option value="">Arequipa</option>
+                <option value="">Lima</option>
+                <option value="">Trujillo</option>
+                <option value="">Tacna</option>
+                <option value="">Ica</option>
+                <option value="">Piura</option>
+            </select>
+            <br>
+
+            <label for="">
+                Correo Electronico
+                <input type="email">
+            </label>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+            
+        </form>
+    </section>
+</body>
+</html>
